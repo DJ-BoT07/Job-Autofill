@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Job Autofill: Profile</title>
+    <link rel="stylesheet" href="ui.css" />
+  </head>
+  <body class="options">
+    <header class="page-head">
+      <h1>Your profile</h1>
+      <p>Saved only in this browser. Nothing is sent anywhere.</p>
+    </header>
+    <form id="form" autocomplete="off"></form>
+    <div class="savebar">
+      <button id="save" class="btn primary" type="button">Save changes</button>
+      <button id="export" class="btn" type="button">Export JSON</button>
+      <label class="btn file-btn">Import JSON<input id="import" type="file" accept="application/json" hidden /></label>
+      <span id="status" class="status" role="status"></span>
+    </div>
+    <script src="options.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Job Autofill</title>
+    <link rel="stylesheet" href="ui.css" />
+  </head>
+  <body class="popup">
+    <header class="bar">
+      <h1>Job Autofill</h1>
+      <a id="open-options" href="#">Edit profile</a>
+    </header>
+
+    <p id="hint" class="notice" hidden></p>
+
+    <div class="actions">
+      <button id="preview" class="btn">Preview</button>
+      <button id="fill" class="btn primary">Fill this page</button>
+    </div>
+
+    <p id="summary" class="summary" hidden></p>
+    <ul id="results" class="results"></ul>
+
+    <footer class="foot">Nothing is submitted for you. Review each step, then continue. Shortcut: <kbd>Alt+Shift+F</kbd></footer>
+    <script src="popup.js"></script>
+  </body>
+</html>
